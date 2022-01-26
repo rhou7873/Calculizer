@@ -20,7 +20,7 @@ function ButtonPages() {
 
     const cardStyle = {
         width: "500px"
-    }
+    }   
 
     // Handles page navigation when buttons clicked
     const history = useHistory();
