@@ -1,0 +1,23 @@
+/* Create shadow when hovering element */
+.hover-shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: .3s
+}
+
+/* Heading hover */
+.heading-hover:hover {
+    cursor: pointer;
+}
+
+/* Animations */
+.spread {
+    animation: spread 1s;
+}
+@keyframes spread {
+    0% {
+        letter-spacing: -5px;
+    }
+    100% {
+        letter-spacing: var(letter-spacing)px;
+    }
+}
